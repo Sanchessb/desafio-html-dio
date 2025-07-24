@@ -1,0 +1,107 @@
+/* Importa uma fonte moderna do Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+  color: #f0f0f0;
+  line-height: 1.6;
+  padding: 40px 20px;
+  max-width: 900px;
+  margin: 0 auto;
+  font-size: 18px;
+}
+
+/* Título principal */
+h1 {
+  text-align: center;
+  color: #00ffff;
+  font-size: 2.5em;
+  margin-bottom: 30px;
+  border-bottom: 3px solid #00ffff;
+  display: inline-block;
+  padding-bottom: 10px;
+}
+
+/* Subtítulos */
+h2 {
+  color: #66fcf1;
+  margin-top: 30px;
+  font-size: 1.6em;
+}
+
+/* Parágrafos */
+p {
+  margin-bottom: 15px;
+  color: #dcdcdc;
+}
+
+/* Listas */
+ul {
+  margin-left: 30px;
+  margin-bottom: 20px;
+}
+
+li {
+  margin-bottom: 8px;
+}
+
+/* Links */
+a {
+  color: #00ffff;
+  text-decoration: none;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+a:hover {
+  color: #ffffff;
+  text-shadow: 0 0 10px #00ffff;
+}
+
+/* Imagem */
+img {
+  display: block;
+  margin: 30px auto;
+  border-radius: 10px;
+  max-width: 100%;
+  height: auto;
+  box-shadow: 0 0 15px rgba(0, 255, 255, 0.4);
+}
+
+/* Seção */
+section {
+  background-color: rgba(255, 255, 255, 0.05);
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+
+/* Responsividade para telas menores */
+@media (max-width: 600px) {
+  body {
+    padding: 20px 15px;
+    font-size: 16px;
+  }
+
+  h1 {
+    font-size: 2em;
+    padding-bottom: 8px;
+  }
+
+  h2 {
+    font-size: 1.3em;
+  }
+
+  ul {
+    margin-left: 20px;
+  }
+}
